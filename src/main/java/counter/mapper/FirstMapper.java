@@ -12,7 +12,7 @@ public class FirstMapper extends Mapper<LongWritable, Text, LongWritable, LongWr
     long vertexX = Long.parseLong(edge[0]); // user id
     long vertexY = Long.parseLong(edge[1]); // follower id
 
-    // do preprocess by putting the lower id in the left side
+    // do preprocess by putting the lower id in the left side before emitting
     if (vertexX > vertexY) context.write(new LongWritable(vertexY), new LongWritable(vertexX));
     else context.write(new LongWritable(vertexX), new LongWritable(vertexY));
   }

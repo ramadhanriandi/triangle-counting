@@ -6,7 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db170e65-b0d0-4dc5-b313-fbdc7d5cc016" name="Default Changelist" comment="" />
+    <list default="true" id="db170e65-b0d0-4dc5-b313-fbdc7d5cc016" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/first-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/first-phase/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/first-phase/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/second-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/second-phase/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/second-phase/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/third-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/third-phase/.part-r-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/third-phase/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/FirstMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/FirstMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/SecondMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/SecondMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/ThirdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/ThirdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/FirstReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/FirstReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/SecondReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/SecondReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/ThirdReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/ThirdReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter/reducer/FirstReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/reducer/FirstReducer.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +39,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1keB41C361JcAbmWaJSAH6dNPSU" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="Sample Text" />
     <property name="last_opened_file_path" value="/usr/local/hadoop/share/hadoop/common/lib/zookeeper-3.4.13.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -82,10 +103,22 @@
       <workItem from="1606554075724" duration="8059000" />
       <workItem from="1606628056913" duration="9291000" />
       <workItem from="1606703742308" duration="339000" />
+      <workItem from="1606706474614" duration="2494000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
