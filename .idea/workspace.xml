@@ -7,21 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db170e65-b0d0-4dc5-b313-fbdc7d5cc016" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/tc2.net" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/tc3.net" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/first-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/first-phase/.part-r-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/first-phase/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/first-phase/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output/first-phase/part-r-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/second-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/second-phase/.part-r-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/second-phase/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/second-phase/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output/second-phase/part-r-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/third-phase/.part-r-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/output/third-phase/.part-r-00000.crc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/third-phase/part-r-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/FirstMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/FirstMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/SecondMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/SecondMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/counter/mapper/ThirdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/mapper/ThirdMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/third-phase/part-r-00000" beforeDir="false" afterPath="$PROJECT_DIR$/output/third-phase/part-r-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/FirstReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/FirstReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/SecondReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/SecondReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/counter/reducer/ThirdReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counter/reducer/ThirdReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/counter/reducer/FirstReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/reducer/FirstReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter/reducer/SecondReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/reducer/SecondReducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/counter/reducer/ThirdReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/counter/reducer/ThirdReducer.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1keB41C361JcAbmWaJSAH6dNPSU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -103,7 +107,8 @@
       <workItem from="1606554075724" duration="8059000" />
       <workItem from="1606628056913" duration="9291000" />
       <workItem from="1606703742308" duration="339000" />
-      <workItem from="1606706474614" duration="2494000" />
+      <workItem from="1606706474614" duration="4940000" />
+      <workItem from="1606727635836" duration="5167000" />
     </task>
     <servers />
   </component>
@@ -115,10 +120,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

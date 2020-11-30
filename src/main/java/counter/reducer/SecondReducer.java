@@ -2,6 +2,7 @@ package counter.reducer;
 
 import java.io.IOException;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 import org.apache.hadoop.io.IntWritable;
@@ -13,10 +14,12 @@ public class SecondReducer extends Reducer<Text, Text, IntWritable, LongWritable
   public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
     boolean isClose = false;
     long countTriangleCandidates = 0;
+    Iterator<Text> iterator = values.iterator();
     Set<String> valueSet = new HashSet<>();
 
     // use Set to prevent redundancy
-    for (Text value : values) {
+    while (iterator.hasNext()) {
+      Text value = iterator.next();
       valueSet.add(value.toString());
     }
 
@@ -27,6 +30,6 @@ public class SecondReducer extends Reducer<Text, Text, IntWritable, LongWritable
     }
 
     // only emit the count when the triangle is truly a closed triplet
-    if (isClose) context.write(new IntWritable(0), new LongWritable(countTriangleCandidates));
+    if (isClose && countTriangleCandidates > 0) context.write(new IntWritable(0), new LongWritable(countTriangleCandidates));
   }
 }
